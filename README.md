@@ -234,7 +234,7 @@ While still in `~/hive/conf`, create/edit `hive-site.xml` and add the following
 <configuration>
     <property>
         <name>javax.jdo.option.ConnectionURL</name>
-        <value>jdbc:derby:;databaseName=/home/davis/hive/metastore_db;create=true</value>
+        <value>jdbc:derby:;databaseName=/home/nagaraju/hive/metastore_db;create=true</value>
         <description>JDBC connect string for a JDBC metastore.</description>
     </property>
     <property>
